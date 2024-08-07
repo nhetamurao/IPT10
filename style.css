@@ -1,0 +1,97 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f8ff; /* Light blue background */
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #98c8ff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+.logo {
+    width: 360px;
+    display: block;
+    margin: 0 auto 20px;
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333;
+}
+input[type="text"],
+input[type="email"],
+input[type="date"],
+textarea,
+select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensure padding doesn't overflow */
+}
+textarea {
+    resize: vertical;
+}
+input[type="radio"] {
+    margin-right: 5px;
+}
+.radio-group label {
+    display: inline-block;
+    margin-right: 15px;
+}
+.button-group {
+    text-align: center;
+}
+input[type="submit"],
+input[type="reset"] {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+input[type="reset"] {
+    background-color: #f44336;
+}
+input[type="reset"]:hover {
+    background-color: #e53935;
+}
+hr {
+    margin: 20px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+th {
+    background-color: #333;
+    color: #fff;
+}
+.name {
+    color: #fff;
+}
